@@ -2,6 +2,7 @@
     <div class="body">
 	    <camo-navbar></camo-navbar>
 	    <blog-list></blog-list>
+         <router-view></router-view>
     </div>
 </template>
 

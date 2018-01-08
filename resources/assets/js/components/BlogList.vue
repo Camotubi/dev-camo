@@ -2,7 +2,7 @@
 	<div class="container">
 		<transition-group name="list">
 		<div class="blog" v-for="blog in blogs" :key="blog.id" v-if="blog.show" >
-			<a href="#" @click="blog.show = !blog.show" v-show="blog.show">{{blog.title}}</a>
+			<router-link to="/foo" @click="blog.show = !blog.show" v-show="blog.show">{{blog.title}}</router-link>
 			<p>{{blog.description.substring(0,maxDescriptSize)}}<span v-show="blog.description.length > maxDescriptSize">...</span></p>
 		</div>
 		</transition-group>
