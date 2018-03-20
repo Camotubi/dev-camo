@@ -1,4 +1,5 @@
 <template>
+
 	<div class="container">
 		<transition-group name="list">
 		<div class="blog" v-for="blog in blogs" :key="blog.id" v-if="blog.show" >
@@ -68,5 +69,17 @@
 .list-enter, .list-leave-to /* .list-leave-active below version 2.1.8 */ {
   opacity: 0;
   transform: translateX(30px);
+}
+div.blog {
+	background-color:#021521;;
+	margin:0.75em;
+	padding:0.4em;
+	border:solid 0.24em #08101e;
+}
+div.blog a:hover {
+	color:#00414b;
+}
+div.blog a {
+color:#8becf8;
 }
 </style>

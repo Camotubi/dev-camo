@@ -10,7 +10,6 @@
 				<span></span>
 			</button>
 			<div class="navbar-menu">
-
 				<div class="navbar-start">
 					<a class="navbar-item">
 						<span><i class="fa fa-home" aria-hidden="true"></i> Home</span>

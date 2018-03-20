@@ -14,6 +14,6 @@
 </script>
 <style>
 .body {
-	background-color:black;
+	background-color:#000015;
 }
 </style>
